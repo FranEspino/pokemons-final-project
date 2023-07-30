@@ -1,0 +1,135 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#FD8106',
+  },
+  experience: {
+    fontSize: 35,
+    fontWeight: 'bold',
+    marginTop: 40,
+    marginLeft: 12,
+    color: '#fff',
+  },
+  name: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#000',
+    textAlign: 'center',
+  },
+  shimmerName: {
+    width: 150,
+    height: 32,
+    alignSelf: 'center',
+    borderRadius: 20,
+    marginTop: 5,
+  },
+  basicInfo: {
+    height: '40%',
+    color: '#000',
+  },
+  detail: {
+    backgroundColor: '#fff',
+    height: '60%',
+    borderTopEndRadius: 20,
+    borderTopStartRadius: 20,
+    padding: 6,
+    //shadow
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 12.35,
+    elevation: 19,
+  },
+  itemDetailContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    marginTop: 20,
+    backgroundColor: 'rgba(250,127,6,0.4)',
+    borderRadius: 20,
+    padding: 10,
+  },
+  itemDetail: {
+    fontSize: 24,
+    fontWeight: '600',
+    color: '#000',
+  },
+  shimmerTitle: {
+    width: 110,
+    height: 35,
+    marginLeft: 12,
+    marginTop: 40,
+    borderRadius: 20,
+  },
+  imgPokemon: {
+    width: 400,
+    height: 280,
+    resizeMode: 'contain',
+  },
+  shimmerImgPokemon: {
+    width: 250,
+    height: 250,
+    borderRadius: 300,
+    alignSelf: 'center',
+  },
+  shimmerImgSprites: {
+    width: 150,
+    height: 150,
+    borderRadius: 300,
+    alignSelf: 'center',
+  },
+  titleInfoPokemon: {
+    fontSize: 24,
+    marginTop: 12,
+    fontWeight: '600',
+    marginLeft: 10,
+    color: '#000',
+  },
+  dividerDetail: {
+    width: 3,
+    height: 30,
+    backgroundColor: '#fff',
+  },
+  detailHabilities: {
+    fontSize: 23,
+    fontWeight: '600',
+    marginLeft: 10,
+    color: '#000',
+  },
+  containerImagesSprites: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+  },
+  sprites1: {
+    width: 200,
+    height: 200,
+    resizeMode: 'contain',
+  },
+  containerInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  iconInfo: {
+    marginTop: 12,
+    marginLeft: 5,
+  },
+  fabFavorites: {
+    backgroundColor: '#FDD2A5',
+    borderRadius: 50,
+    padding: 4,
+    width: 60,
+    alignSelf: 'flex-end',
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    zIndex: 30,
+    position: 'absolute',
+    top: 270,
+  },
+});
